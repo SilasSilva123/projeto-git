@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background-image: linear-gradient(rgb(94, 168, 243), rgb(122, 122, 228), rgb(103, 200, 233)) 
+}
+ 
+
+#caixa1{
+ border: black solid 1.5px;
+ position: relative;
+ height: 390px;
+ width: 305px;
+ left: 790px;
+ top: 250px;
+ background-image: linear-gradient(rgb(73, 166, 243), rgb(94, 94, 255), rgb(67, 209, 245));
+ border-radius: 15px;
+ filter:drop-shadow(2px 4px 200px rgb(2, 87, 172)) ;
+}
+
+
+#caixa2{
+    border: solid black 1.5px;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: 200px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    bottom:330px;
+    background-color: rgb(90, 81, 81);
+    opacity:0.8;
+}
+
+
+.dados{
+    margin: 15px;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(169, 169, 247);
+    height: 25px;    
+}
+
+
+#titulo{
+    margin-left: 100px;
+    color: rgb(125, 180, 224);
+    text-shadow: 2px 4px 20px rgb(93, 161, 216);
+    font-family: sans-serif;
+    right:15px;
+    font-family: 'Playfair Display', serif;    
+}
+
+ 
