@@ -1,0 +1,59 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-gap: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 15px;
+    border: solid 3px black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(218, 88, 71);
+}
+
+
+
+.container2{
+   position: relative;
+   top:100px;
+   display: grid;
+   row-gap: 10px;
+   grid-template-columns: repeat(1, auto);
+
+}
+
+
+.other{
+    width: 100px;
+    height: 15px;
+    border: solid 3px black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(218, 88, 71);
+}
+
+
+
+.fixed-action-btn{
+    position: relative;
+    left: 200px;
+}
+ 
+ 
+.fixed-action-btn button{
+    border-radius: 20px;
+}
+
+
+.btn-floating-red{
+    color: red;   
+}
+
+.btn-floating-red:hover{
+    background-color: rgb(207, 105, 105);
+}
